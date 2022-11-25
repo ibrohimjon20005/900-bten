@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto&display=swap');
+
+
+:root{
+    --lato:'patrick hand', sans-serif;
+    --roboto: 'roboto', sans-serif;
+
+}
+ 
+h1{
+    font-family: var(--lato);
+}
+.lato{
+    font-family: var(--lato);
+}
+.roboto{
+    font-family: var(--roboto);
+}
+
+
+#header .fixed{
+    width: 33%;
+    height: 100vh;
+    position: fixed;
+    background-image: url(/css/img/bg.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#header .fixed img{
+    width: 45%;
+    height: 30%;
+}
+.rowe{
+    margin-top: -75%;
+}
+@media screen and (max-width:768px) {
+    #header .fixed{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background-image: url(/css/img/bg.jpg);
+        background-size: 100% 100%;
+      
+    }
+    
+}
